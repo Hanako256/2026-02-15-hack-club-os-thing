@@ -18,3 +18,7 @@ a {
     color: #f9ed8a;
     font-family: DejaVu Sans Mono, monospace;
 }
+
+img {
+    border-radius: 8px;
+}
