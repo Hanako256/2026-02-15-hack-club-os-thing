@@ -1,5 +1,13 @@
+body {
+    background-color: #1f2d70;
+}
 h1 {
-     background-color: #1f2d70;
-     color: #5ca4d1;
+     color: #85c9f2;
      font-family: DejaVu Sans Mono, monospace;
+     font-family: Gill Sans, sans-serif;
+     font-family: Courier New, monospace;
+}
+p {
+    color:#85c9f2;
+    font-family: DejaVu Sans Mono, monospace;
 }
