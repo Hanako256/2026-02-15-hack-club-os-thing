@@ -4,8 +4,6 @@ body {
 h1 {
      color: #cd8af9;
      font-family: DejaVu Sans Mono, monospace;
-     margin: 4px;
-     padding: 4px;
 }
 p {
     color:#e8e7eb;
@@ -15,6 +13,8 @@ p {
 h2 {
     color: #dcb5f6;
     font-family: DejaVu Sans Mono, monospace;
+     margin: 4px;
+     padding: 4px;
 }
 a {
     color: #f9ed8a;
