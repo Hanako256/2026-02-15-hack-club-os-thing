@@ -4,6 +4,8 @@ body {
 h1 {
      color: #cd8af9;
      font-family: DejaVu Sans Mono, monospace;
+     margin: 4px;
+     padding: 4px;
 }
 p {
     color:#e8e7eb;
@@ -20,5 +22,5 @@ a {
 }
 
 img {
-    border-radius: 8px; object-fit: cover;
+    border-radius: 8px;
 }
