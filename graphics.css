@@ -2,7 +2,7 @@ body {
     background-color: #1f2d70;
 }
 h1 {
-     color: #85c9f2;
+     color: #ade0f0;
      font-family: DejaVu Sans Mono, monospace;
      font-family: Gill Sans, sans-serif;
      font-family: Courier New, monospace;
@@ -10,4 +10,13 @@ h1 {
 p {
     color:#85c9f2;
     font-family: DejaVu Sans Mono, monospace;
+    font-family: Gill Sans, sans-serif;
+    font-family: Courier New, monospace;
+}
+
+h2 {
+    color: #ade0f0;
+    font-family: DejaVu Sans Mono, monospace;
+    font-family: Gill Sans, sans-serif;
+    font-family: Courier New, monospace;
 }
