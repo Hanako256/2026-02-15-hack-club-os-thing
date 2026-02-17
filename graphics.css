@@ -1,5 +1,6 @@
 body {
-    background-color: #24232b;
+    background-image: url("./images/poe article pic.png");
+    background-size: cover;
 }
 h1 {
      color: #cd8af9;
@@ -28,5 +29,13 @@ img {
 }
 
 div {
+    position: absolute;
+    background-color: #24232b;
+    top: 0%;
+    left: 0%;
     border:solid;
+    padding:12px;
+    width: 1200px;
+    border-radius: 24px;
+    border-color: #7e7693;
 }
