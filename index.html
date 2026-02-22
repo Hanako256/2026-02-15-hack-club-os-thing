@@ -32,8 +32,17 @@
             <br>
             <p>Ok, that's all for now.</p>
         </div>
-        <div>
-            
+        <div style = "display: flex; justify-content: space-between; align-items: center; background-color: rgba(205, 138, 249, 0.15); height: 10px;">
+            <p>The pOeS</p>
+            <p id = timeDisplay></p>
         </div>
+        <script>
+            function updateTime() {
+                var time = new Date().toLocaleString();
+                var timeText = document.querySelector("#timeDisplay");
+                timeText.innerHTML = time;
+            }
+            setInterval(updateTime, 1000);
+        </script>
     </body>
 </html>
