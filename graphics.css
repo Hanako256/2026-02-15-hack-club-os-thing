@@ -31,8 +31,8 @@ img {
 div {
     position: absolute;
     background-color: #24232b;
-    top: 0%;
-    left: 0%;
+    top: 10%;
+    left: 20%;
     border:solid;
     padding:12px;
     width: 1200px;
