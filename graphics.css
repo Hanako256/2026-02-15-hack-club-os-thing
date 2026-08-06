@@ -29,13 +29,11 @@ img {
 }
 
 div {
+    flex-direction: column;
     position: absolute;
     background-color: #24232b;
-    top: 10%;
-    left: 20%;
     border:solid;
     padding:12px;
-    width: 1200px;
     border-radius: 24px;
     border-color: #7e7693;
 }
