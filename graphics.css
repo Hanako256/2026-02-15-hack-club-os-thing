@@ -26,6 +26,7 @@ a {
 img {
     border-radius: 8px;
     margin: 6px;
+    width:min-content;
 }
 
 div {

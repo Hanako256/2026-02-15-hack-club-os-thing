@@ -1,6 +1,8 @@
-var welcomeScreen = document.querySelector("#welcome");
+//var welcomeScreen = document.querySelector("#welcome");
 var welcomeScreenOpen = document.querySelector("#welopen");
-var welcomeScreenClose = document.querySelector("#welclose");
+//var welcomeScreenClose = document.querySelector("#welclose");
+var button = document.querySelector("#welcome");
+var poebutton = document.querySelector("#poebutton");
 
 function updateTime() {
     var time = new Date().toLocaleString();
@@ -53,16 +55,26 @@ function dragElement(element) {
 
 function closeWindow(element) {
     element.style.display = "none";
-
 }
 
 function openWindow(element) {
     element.style.display = "flex";
 }
 
-welcomeScreenClose.addEventListener("click", function() {
+/* welcomeScreenClose.addEventListener("click", function() {
     closeWindow(welcomeScreen);
 });
 welcomeScreenOpen.addEventListener("click", function() {
     openWindow(welcomeScreen);
+}); */
+
+welcomeScreenOpen.addEventListener("click", function() {
+    if (button.style.display == "none") {
+        openWindow(button);
+        poebutton.src = "./images/poe blink still open.png";
+    }
+    else {
+        closeWindow(button);
+        poebutton.src = "./images/poe blink still closed.png";
+    }
 });
